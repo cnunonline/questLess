@@ -7,5 +7,6 @@ module xx_personal.questless {
     requires org.kordamp.bootstrapfx.core;
 
     opens xx_personal.questless to javafx.fxml;
+    opens xx_personal.questless.controller to javafx.fxml;
     exports xx_personal.questless;
 }
